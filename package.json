@@ -1,0 +1,30 @@
+{
+  "name": "fsto",
+  "version": "1.0.0",
+  "description": "fsto",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stevepereira/fsto.git"
+  },
+  "keywords": [
+    "fsto"
+  ],
+  "author": "steve pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevepereira/fsto/issues"
+  },
+  "homepage": "https://github.com/stevepereira/fsto#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "supertest": "^1.1.0",
+    "tape": "^4.2.2"
+  }
+}
